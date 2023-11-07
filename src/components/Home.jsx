@@ -1,9 +1,12 @@
 import React from 'react'
 import img1 from '../assets/Aryan-Team1.jpeg'
 import { useState } from 'react'
-import '../assets/main.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+
 
 const Home = () => {
+  AOS.init();
 
   return (
    <>
@@ -15,12 +18,16 @@ const Home = () => {
     <div className="w-full mx-auto mt-16 px-6 flex justify-center sm:px-6 sm:w-1/2 lg:px-8">
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
-          <span className="block xl:inline">Namaste!</span> 
-          <span className="block text-indigo-400 xl:inline"> I'm Aryan</span>
+          <span className="block xl:inline"  data-aos="fade-up"
+     data-aos-duration="2500">Namaste!</span> 
+          <span className="block text-indigo-400 xl:inline"  data-aos="fade-up"
+     data-aos-duration="2500"> I'm Aryan</span>
         </h1>
         <p
           id="typewriter"
           className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
+          data-aos="fade-down"
+          data-aos-duration="1500"
         >
         Programming ideas into reality.
         </p>
