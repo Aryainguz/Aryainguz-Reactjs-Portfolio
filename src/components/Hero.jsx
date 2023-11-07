@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 
-const Home = () => {
+const Hero = () => {
   AOS.init();
 
   return (
@@ -58,4 +58,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Hero
