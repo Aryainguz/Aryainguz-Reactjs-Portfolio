@@ -26,8 +26,8 @@ const Hero = () => {
         <p
           id="typewriter"
           className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
-          data-aos="fade-down"
-          data-aos-duration="1500"
+          data-aos="fade-in"
+          data-aos-duration="3000"
         >
         Programming ideas into reality.
         </p>
