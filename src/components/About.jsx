@@ -10,10 +10,7 @@ const About = () => {
           About Me
         </h2>
         <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
-          {"{"} "name" : "Aryan" {"}"}
-        </p>
-        <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-        {"{"} "role" : "Full Stack Developer" {"}"}
+          {"{"} About {"}"}
         </p>
       </div>
       <div className="mt-10">

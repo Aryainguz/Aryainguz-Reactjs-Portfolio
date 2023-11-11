@@ -9,25 +9,25 @@ const ExperienceArray = [
     "name": "The Xiting Way",
     "role": "Chief Technology Officer",
     "img": txw,
-    "description": "As a CTO of a software development compamy www.TheXitngWay.com. I was responsible for the development of the website and projects development process for the clients. As a team we challenged the boundaries of possiblities"
+    "description": "As a CTO of a software development compamy www.TheXitngWay.com. I was leading the projects development process. As a team we challenged the boundaries of possiblities."
   },
   {
     "name": "Chitkara ACM Student Chapter",
     "role": "Web Master",
     "img": acm,
-    "description": "As the webmaster of Chitkara ACM Student Chapter, I developed our website, and through web development workshops and interactive features we empowered students with knowledge about modern web applications and open source space"
+    "description": "As the webmaster of Chitkara ACM Student Chapter, I developed our website, empowered students with knowledge about modern web applications through workshops."
   },
   {
     "name": "Open Source Chandigarh",
     "role": "Open Source Lead",
     "img": osc, 
-    "description": "As Open Source Lead at Open Source Chandigarh, I oversaw open source projects and encouraged students to contribute to the open-source community. Together, we promoted the ethos of open-source software and fostered a culture of innovation."
+    "description": "As Open Source Lead at Open Source Chandigarh, I oversaw open source projects and encouraged students to contribute to the open-source community."
   },
   {
     "name": "Social Winter of Code",
     "role": "Campus Leader",
     "img": swoc,
-    "description": "As the Campus Leader of Social Winter of Code at Chitkara University, I awared students about open source space to contribute their technical skills for the greater good, fostering a sense technical innovation within our college campus."
+    "description": "As the Campus Leader of Social Winter of Code at Chitkara University, I awared students about open source space to contribute their technical skills for the greater good."
   },
 ]
 
