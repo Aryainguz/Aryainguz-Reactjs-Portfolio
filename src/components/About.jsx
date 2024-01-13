@@ -12,7 +12,8 @@ const About = () => {
         <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
           {"{"} About {"}"}
         </p>
-      </div>
+      </div> 
+      <br />
       <div className="mt-10">
         <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
           <div className="flex">
@@ -47,7 +48,10 @@ const About = () => {
                 Location
               </dt>
               <dd className="mt-2 text-base text-gray-500">
-              {"{"} "Chandigarh" : "Pb" {"}"}
+              {"{"} <br />
+               "Country" : "India" <br />
+               "Chandigarh" : "Pb" <br />
+                {"}"}
               </dd>
             </div>
           </div>
@@ -96,9 +100,11 @@ const About = () => {
               </dt>
               <dd className="mt-2 text-base text-gray-500">
               {"{"} <br />
-              "MERN Stack" : <br /> ["Nodejs, "Expressjs", "MongoDB", "Reactjs" ], <br /> 
-              "Django" : <br />  ["Postgres SQL", "MVT model"], <br /> 
-              "Languages" : <br /> ["Javascript", "Python", "C++", "C"], <br />
+              "MERN Stack" : ["Nodejs, "Expressjs", "MongoDB", "Reactjs" ], <br /> 
+              "Nextjs" :    ["SSR", "ISR", "App Router" ], <br /> 
+              "DevOps" :    ["Micro Services", "Docker", "Kubernetes" ], <br /> 
+              "Django" :    ["Postgres SQL", "MVT model"], <br /> 
+              "Languages" : ["Typescript","Javascript", "Python", "C++", "C"], <br />
               {"}"}
               </dd>
             </div>
@@ -164,6 +170,7 @@ const About = () => {
               <dd className="mt-2 text-base text-gray-500">
               {"{"} <br />
               "email" : <a href="mailto:aryaninguz369@gmail.com" className='text-blue-400 hover:text-blue-500'> "aryaninguz369@gmail.com"</a> <br />
+              "email" : <a href="mailto:team@thexitingway.com" className='text-blue-400 hover:text-blue-500'> "The Xiting Way"</a> <br />
               {"}"}
               </dd>
             </div>
