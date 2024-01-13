@@ -37,7 +37,7 @@ const Hero = () => {
           <div className="mt-7 w-48 sm:mt-0 sm:ml-3 "> 
             <a
               href="#"
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-400 bg-gray-800 hover:bg-gray-700 md:py-4 md:text-lg md:px-10"
+              className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-400 bg-gray-800 hover:bg-gray-700 md:py-4 md:text-lg md:px-10"
             >
               View Resume
             </a>
@@ -55,7 +55,6 @@ const Hero = () => {
     </div>
   </div>
 </section>
-
    </>
   )
 }

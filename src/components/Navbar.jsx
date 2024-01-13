@@ -1,4 +1,6 @@
 import React from 'react'
+import {RxHamburgerMenu} from 'react-icons/rx'
+import {FaGithub} from 'react-icons/fa'
 
 const Navbar = () => {
   const toggleMobileMenu = () => {
@@ -7,47 +9,18 @@ const Navbar = () => {
   };
   return (
     <>
-  <nav className="bg-gray-900 shadow-lg shadow-indigo-600/40 " style={{width:"100vw",position:"fixed"}}>
+  <nav className="bg-gray-900 shadow-lg shadow-indigo-600/40 z-30" style={{width:"100vw",position:"fixed"}}>
   <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
     <div className="relative flex items-center justify-between h-16">
       <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <button
           type="button"
-          className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+          className="inline-flex text-xl items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
           aria-controls="mobile-menu"
           aria-expanded="false"
           onClick={() => toggleMobileMenu()}
         >
-          <svg
-            className="block h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          </svg>
-          <svg
-            className="hidden h-6 w-6"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6 18L18 6M6 6l12 12"
-            />
-          </svg>
+         <RxHamburgerMenu/>
         </button>
       </div>
       <div
@@ -79,7 +52,7 @@ const Navbar = () => {
           <div className="flex justify-end space-x-6 " style={{marginLeft:"209px"}}>
             <a
               href="#"
-              className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
+              className=" text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               About
             </a>
@@ -112,17 +85,14 @@ const Navbar = () => {
               href="https://github.com/Aryainguz"
               style={{ textDecoration: "none" }}
               target="_blank"
+              className='text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md'
             >
               <button
-                className="bg-gray-900 flex text-sm rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                className="bg-gray-900 flex text-2xl rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 id="user-menu"
                 aria-haspopup="true"
               >
-                <img
-                  className="h-8 w-8 rounded-full"
-                  src="https://avatars.githubusercontent.com/u/9919?s=280&v=4"
-                  alt=""
-                />
+                <FaGithub/>
               </button>
             </a>
           </div>
