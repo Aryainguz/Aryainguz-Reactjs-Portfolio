@@ -1,16 +1,14 @@
-import React from 'react'
+import React from 'react';
 import Marquee from "react-fast-marquee";
-import {FaNodeJs,FaCss3,FaSass,FaGithub,FaReact,FaJava} from 'react-icons/fa'
-import {SiTailwindcss,SiNextdotjs,SiMongodb,SiTypescript,SiExpress,SiJavascript,SiHtml5,SiVite,SiVercel,SiChakraui,SiOpenai,SiDjango,SiPython,SiCplusplus,SiC,SiFigma,SiPostgresql,SiPostman,SiGit,SiDocker,SiKubernetes,SiJsonwebtokens,SiPrisma,SiRedis,SiSocketdotio,SiMaterialdesign,SiRedux,SiReactrouter,SiReacthookform,SiYaml,SiNpm} from 'react-icons/si'
+import { FaGithub, FaNodeJs, FaReact, FaSass } from 'react-icons/fa';
+import { SiChakraui, SiCplusplus, SiDjango, SiDocker, SiExpress, SiFigma, SiGit, SiJavascript, SiKubernetes, SiMongodb, SiNextdotjs, SiPostgresql, SiPostman, SiPrisma, SiPython, SiRedis, SiRedux, SiSocketdotio, SiTailwindcss, SiTypescript } from 'react-icons/si';
 
 
 const skills = [
   {
     icon: <FaNodeJs/>,
   },
-  {
-    icon: <FaCss3/>,
-  },
+
   {
     icon: <FaSass/>,
   },
@@ -39,19 +37,7 @@ const skills = [
     icon: <SiJavascript/>,
   },
   {
-    icon: <SiHtml5/>,
-  },
-  {
-    icon: <SiVite/>,
-  },
-  {
-    icon: <SiVercel/>,
-  },
-  {
     icon: <SiChakraui/>,
-  },
-  {
-    icon: <SiOpenai/>,
   },
   {
     icon: <SiDjango/>,
@@ -61,9 +47,6 @@ const skills = [
   },
   {
     icon: <SiCplusplus/>,
-  },
-  {
-    icon: <SiC/>,
   },
   {
     icon: <SiFigma/>,
@@ -84,9 +67,6 @@ const skills = [
     icon: <SiKubernetes/>,
   },
   {
-    icon: <SiJsonwebtokens/>,
-  },
-  {
     icon: <SiPrisma/>,
   },
   {
@@ -96,23 +76,8 @@ const skills = [
     icon: <SiSocketdotio/>,
   },
   {
-    icon: <SiMaterialdesign/>,
-  },
-  {
     icon: <SiRedux/>,
   },
-  {
-    icon: <SiReactrouter/>,
-  },
-  {
-    icon: <SiReacthookform/>,
-  },
-  {
-    icon: <SiYaml/>,
-  },
-  {
-    icon: <SiNpm/>,
-  }
 ]
 
 const Skills = () => {
@@ -122,18 +87,21 @@ const Skills = () => {
     <div className="max-w-7xl mx-6 px-4 sm:px-6 sm:mx-auto lg:px-8">
         <div className="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
         <div className="text-white mb-4 lg:text-center">
-        <h2 className="text-base text-indigo-400 font-semibold tracking-wide uppercase">
+        <h2 className="text-base text-indigo-400 font-semibold tracking-wide uppercase"  data-aos="fade-in"
+          data-aos-duration="3000">
           My Expertise
         </h2>
-        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
+        <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl"  data-aos="fade-in"
+          data-aos-duration="3000">
           {"{"} Expertise {"}"}
         </p>
       </div>
       </div>
-          <Marquee>
+          <Marquee  data-aos="fade-up"
+          data-aos-duration="3000">
             <div className="grid mb-6 grid-cols-12 gap-8 sm:gap-12 md:grid-cols-12 lg:grid-cols-12 text-gray-400">
-              {skills.map((skill) => (
-                <a href='' className="text-xl sm:text-3xl text-white flex justify-center items-center ml-4">
+              {skills.map((skill,i) => (
+                <a href='' key={i} className="text-xl sm:text-3xl text-white flex justify-center items-center ml-4">
                   {skill.icon}
                 </a>
               ))}
