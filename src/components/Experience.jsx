@@ -1,8 +1,8 @@
 import React from 'react'
-import txw from '../assets/The-Xiting-Way-Logo.jpg'
-import osc from '../assets/OSC.jpeg'
-import swoc from '../assets/swoc.jpg'
-import acm from '../assets/Chitkara-ACM.png'
+import txw from '../../public/assets/The-Xiting-Way-Logo.jpg'
+import osc from '../../public/assets/OSC.jpeg'
+import swoc from '../../public//assets/swoc.jpg'
+import acm from '../../public/assets/Chitkara-ACM.png'
 
 const ExperienceArray = [
   {
@@ -58,20 +58,20 @@ const Card = (props) => {
 const Experience = () => {
   return (
     <>
-      <section className="text-gray-400 body-font bg-gray-900 px-6">
+      <section className="text-gray-400 body-font bg-gray-900 px-6" id='experience'>
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full">
           </div>
-          <div className="lg:text-center">
-        <h2 className="text-base text-indigo-400 font-semibold tracking-wide uppercase">
-          About Me
+          <div className="lg:text-center" >
+        <h2 className="text-base text-indigo-400 font-semibold tracking-wide uppercase" data-aos="flip-right">
+          My Experience
         </h2>
-        <p className="mt-2 text-3xl text-white leading-8 font-extrabold tracking-tight sm:text-4xl">
-          {"{"} About {"}"}
+        <p className="mt-2 text-3xl text-white leading-8 font-extrabold tracking-tight sm:text-4xl" data-aos="fade-in">
+          {"{"} Experience {"}"}
         </p>
       </div>
  
-          <div className="flex mt-12 flex-wrap -m-4">
+          <div className="flex mt-12 flex-wrap -m-4" data-aos="fade-in">
 
             {
               ExperienceArray.map((item,index) => (
