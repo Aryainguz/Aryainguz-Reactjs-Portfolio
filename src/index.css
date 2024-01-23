@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
 .pic{
     animation: MoveUpDown
     2s ease-in-out infinite;
