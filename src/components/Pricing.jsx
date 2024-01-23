@@ -2,202 +2,218 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <>
-
-
-        <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
-        <div className="max-w-7xl mx-6 px-4 sm:px-6 sm:mx-auto lg:px-8">
-          <div className="my-12 lg:text-center">
-            <h2 className="text-base text-indigo-400 font-semibold tracking-wide uppercase">
-              My Achievements
+   <>
+<section className="text-gray-400 bg-gray-900 body-font overflow-hidden">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+    <h2 className="text-base text-indigo-400 font-semibold tracking-wide uppercase">
+             My Pricing
             </h2>
             <p className="mt-2 text-white text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
-              {"{"} Achievements {"}"}
+              {"{"} Pricing {"}"}
             </p>
-          </div>
-    <div class="flex flex-wrap -m-4 mt-12">
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">START</h2>
-          <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">Free</h1>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+      <div className="flex mx-auto border-2 border-indigo-500 rounded overflow-hidden mt-6">
+        <button className="py-1 px-4 bg-indigo-500 text-white focus:outline-none">My</button>
+        <button className="py-1 px-4 text-gray-300 focus:outline-none">Services</button>
+      </div>
+    </div>
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+          <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">Good</h2>
+          <h1 className="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">3000 Rs </h1>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Startup/Business Landing Page
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Tumeric plaid portland
+            </span>Portfolio Website
           </p>
-          <p class="flex items-center text-gray-400 mb-6">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>ReactJS + Beautifull UI + Responsive + Full Customization 
           </p>
-          <button class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+          <p className="flex items-center text-gray-400 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
+              </svg>
+            </span>SEO + Google Analytics + Hosting
+          </p>
+          <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Contact
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </button>
-          <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+          <p className="text-xs text-gray-400 mt-3">Urgent website will cost 1k Rs more.</p>
         </div>
       </div>
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
-          <span class="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-          <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">PRO</h2>
-          <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
-            <span>$38</span>
-            <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-indigo-500 flex flex-col relative overflow-hidden">
+          <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">Popular</span>
+          <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">Good Full-Stack</h2>
+          <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+            <span>7,000 Rs</span>
           </h1>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Vexillologist pitchfork
+            </span>Booking System + Google or Custom Based Login/Register
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Tumeric plaid portland
+            </span>Nextjs or Reactjs + Beautifull UI + Responsive + Full Customization
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Hexagon neutra unicorn
+            </span>Email + SMS + Whatsapp Automations
           </p>
-          <p class="flex items-center text-gray-400 mb-6">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>All Features of Good Plan
           </p>
-          <button class="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+          <button className="flex items-center mt-auto text-white bg-indigo-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-indigo-600 rounded">Contact
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </button>
-          <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+          <p className="text-xs text-gray-400 mt-3">
+            Urgent website will cost 2k Rs more.
+            .</p>
         </div>
       </div>
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">BUSINESS</h2>
-          <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
-            <span>$56</span>
-            <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+          <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">Excellent Full-Stack</h2>
+          <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+            <span>15,999 Rs.</span>
           </h1>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Vexillologist pitchfork
+            </span>E Commerce Website / Blog 
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Tumeric plaid portland
+            </span>Admin Panel 
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Hexagon neutra unicorn
+            </span> Payment Gateway Integration
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Vexillologist pitchfork
+            </span> All Features of Great Plan
           </p>
-          <p class="flex items-center text-gray-400 mb-6">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>1 Year Free Maintenance
           </p>
-          <button class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+          <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Contact
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </button>
-          <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+          <p className="text-xs text-gray-400 mt-3">
+            Urgent website will cost 3k Rs more.</p>
         </div>
       </div>
-      <div class="p-4 xl:w-1/4 md:w-1/2 w-full mb-6">
-        <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
-          <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">SPECIAL</h2>
-          <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
-            <span>$72</span>
-            <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+      <div className="p-4 xl:w-1/4 md:w-1/2 w-full">
+        <div className="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+          <h2 className="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">Elite Full Stack</h2>
+          <h1 className="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+            <span>29,990 Rs</span>
           </h1>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Vexillologist pitchfork
+            </span>
+            Full Content Management System
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Tumeric plaid portland
+            </span>
+            Speed Optimization 
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Hexagon neutra unicorn
+            </span>
+            Caching + Advanced Security
           </p>
-          <p class="flex items-center text-gray-400 mb-2">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-2">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Vexillologist pitchfork
+            </span>
+            Premium Designs
           </p>
-          <p class="flex items-center text-gray-400 mb-6">
-            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                <path d="M20 6L9 17l-5-5"></path>
+          <p className="flex items-center text-gray-400 mb-6">
+            <span className="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" className="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5" />
               </svg>
-            </span>Mixtape chillwave tumeric
+            </span>
+            All Features of Excellent Plan  
           </p>
-          <button class="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Button
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+          <button className="flex items-center mt-auto text-white bg-gray-800 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-700 rounded">Contact
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7" />
             </svg>
           </button>
-          <p class="text-xs text-gray-400 mt-3">Literally you probably haven't heard of them jean shorts.</p>
+          <p className="text-xs text-gray-400 mt-3">
+            Urgent website will cost 5k Rs more
+            .</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-    </>
+   </>
   )
 }
 
