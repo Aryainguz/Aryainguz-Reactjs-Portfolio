@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../assets/Aryan-Team1.jpeg'
+import img1 from '../../public/assets/Aryan-Team1.jpeg'
 import { useState } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold sm:text-5xl md:text-6xl">
           <span className="block xl:inline"  data-aos="fade-up"
-     data-aos-duration="2500">Namaste!</span> 
+     data-aos-duration="2500">Hello!</span> 
           <span className="block text-indigo-400 xl:inline"  data-aos="fade-up"
      data-aos-duration="2500"> I'm Aryan</span>
         </h1>
@@ -31,13 +31,15 @@ const Hero = () => {
           data-aos="fade-in"
           data-aos-duration="3000"
         >
-        Programming ideas into reality.
+       NextJS, MERN Stack, Typescript - Full Stack Developer | DevOps
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="mt-7 w-48 sm:mt-0 sm:ml-3 "> 
             <a
-              href="#"
+              href="https://www.linkedin.com/in/aryan-inguz-b73150254/"
               className="flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-400 bg-gray-800 hover:bg-gray-700 md:py-4 md:text-lg md:px-10"
+              data-aos="fade-in"
+              data-aos-duration="3000"
             >
               View Resume
             </a>
@@ -50,7 +52,9 @@ const Hero = () => {
         src={img1}
         style={{ height: 250, boxShadow: "30px 30px 5px #000" }}
         alt="Placeholder Image"
-        className="object-cover object-center rounded-full shadow-md"
+        className="pic object-cover object-center rounded-full shadow-md"
+        data-aos="fade-up"
+        data-aos-duration="3000"
       />
     </div>
   </div>

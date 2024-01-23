@@ -27,7 +27,7 @@ const Navbar = () => {
         className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
         style={{ fontSize: "x-large" }}
       >
-        <a href="" style={{ textDecoration: "none" }}>
+        <a href="/" style={{ textDecoration: "none" }}>
           <span
             style={{
               fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',
@@ -51,25 +51,31 @@ const Navbar = () => {
         <div className="hidden sm:block sm:ml-6">
           <div className="flex justify-end space-x-6 " style={{marginLeft:"209px"}}>
             <a
-              href="#"
+              href="#about"
               className=" text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               About
             </a>
             <a
-              href="#"
+              href="#projects"
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Projects
             </a>
             <a
-              href="#"
+              href="#experience"
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Experience
             </a>
             <a
-              href="#"
+              href="#achievements"
+              className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Achievements
+            </a>
+            <a
+              href="#contact"
               className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact
@@ -85,7 +91,7 @@ const Navbar = () => {
               href="https://github.com/Aryainguz"
               style={{ textDecoration: "none" }}
               target="_blank"
-              className='text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md'
+              className='text-white px-3 py-2 rounded-md'
             >
               <button
                 className="bg-gray-900 flex text-2xl rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
@@ -108,25 +114,31 @@ const Navbar = () => {
   <div className="sm:hidden hidden" id="mobile-menu">
     <div className="px-2 pt-2 pb-3 space-y-1">
       <a
-        href="#"
+        href="#about"
         className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
       >
         About
       </a>
       <a
-        href="#"
+        href="#projects"
         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
       >
         Projects
       </a>
       <a
-        href="#"
+        href="#experience"
         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
       >
         Experience
       </a>
       <a
-        href="#"
+        href="#achievements"
+        className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+      >
+        Achievements
+      </a>
+      <a
+        href="#contact"
         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
       >
         Contact
