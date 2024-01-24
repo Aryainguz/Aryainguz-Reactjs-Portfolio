@@ -15,7 +15,7 @@ const projectsArray = [
     title: 'Winners - Hack4Sustainability, Thapar University',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 0,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:osclead,
@@ -29,49 +29,49 @@ const projectsArray = [
     title: 'Winners - ACM Present Your Ideas',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 2,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:ceedfinalist,
     title: 'Ceed Innovest 2.0 Finalist The Xiting Way',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 3,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:buildspace,
     title: 'buildspace Nights and Weekends S4 - Graduate',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 4,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:sih,
     title: 'SIH 2023 Top 30 From Chitkara University',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 5,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:coffeandcode,
     title: 'Special Mention - Coffe and Code Hack 2023, UIET',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 6,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:hacktoberfest,
     title: 'Hacktoberfest 2023 - Contributor & Maintainer',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 7,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   },
   {
     img:swocadmin,
     title: 'Project Admin - SWOC 2024 (EuphoriaCheck Top 3)',
     description: `A Web Application to check the euphoria level of a person using the PERMA model of happiness developed by psychologist Martin Seligman. Built using NodeJS, ExpressJS, EJS, and deployed on Vercel.`,
     id: 8,
-    link: 'https://euphoriacheck.vercel.app/'
+    link: ''
   }
 ]
 
@@ -87,7 +87,7 @@ const LeftProjectCard = ({img,title,description,id,link}) => {
          {description}
         </p>
         <a href={link} className="inline-flex items-center text-white bg-indigo-600 hover:bg-primary-800 focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">
-          View Project
+          Know More
           <svg
             className="ml-2 -mr-1 w-5 h-5"
             fill="currentColor"
