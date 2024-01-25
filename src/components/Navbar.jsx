@@ -27,7 +27,7 @@ const Navbar = () => {
         className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
         style={{ fontSize: "x-large" }}
       >
-        <a href="/" style={{ textDecoration: "none" }}>
+        <a href="#top" style={{ textDecoration: "none" }}>
           <span
             style={{
               fontFamily: '"Segoe UI", Tahoma, Geneva, Verdana, sans-serif',

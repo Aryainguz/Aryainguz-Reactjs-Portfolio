@@ -12,7 +12,7 @@ const Hero = () => {
    <>
    <br />
    <br />
-   <section className="bg-gray-900 text-white w-full py-20 flex flex-wrap-reverse">
+   <section className="bg-gray-900 text-white w-full py-20 flex flex-wrap-reverse" id='top'>
   <div
     className="flex flex-wrap-reverse"
     style={{ width: "97vw", display: "flex", flexWrap: "wrap-reverse" }}
