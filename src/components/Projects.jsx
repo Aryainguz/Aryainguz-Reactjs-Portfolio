@@ -47,22 +47,22 @@ const ProjectsArray = [
     glink:"https://github.com/Aryainguz/Euphoria-Check-PERMA-Meter-Express"
   },
   {
-    title: "The Xiting Way Website",
-    description: "Software Startup's Landing Page Built using Nextjs 14 + TailwindCSS + Shadcn UI + Fully Typescript with SEO and speed optimization.",
+    title: "IdeaXAPI",
+    description: "A REST API for generating Ideas based by choosing any famous personality built using NodeJS + ExpressJS + Open AI integration.",
     img: ideaxapi,
     hlink:"https://www.thexitingway.com/",
     glink:"https://github.com/Aryainguz/TheXitingWay-Website"
   },
   {
-    title: "IdeaXAPI",
-    description: "A REST API for generating Ideas based by choosing any famous personality built using NodeJS + ExpressJS + Open AI integration.",
+    title: "E Commerce Cart",
+    description: "An E Commerce Cart built using ReactJS + Context API + TailwindCSS.",
     img: ecommerce,
     hlink:"https://idea-x-api.vercel.app/",
     glink:"https://github.com/Aryainguz/IdeaXApi"
   },
   {
-    title: "E Commerce Cart",
-    description: "An E Commerce Cart built using ReactJS + Context API + TailwindCSS.",
+    title: "Redux Todo App",
+    description: "A Todo App built using ReactJS + Redux Toolkit + TailwindCSS.",
     img: todo_redux,
     hlink:"https://loquacious-basbousa-23537c.netlify.app/",
     glink:"https://github.com/Aryainguz/EcommerceCart-React-ConextAPI"
