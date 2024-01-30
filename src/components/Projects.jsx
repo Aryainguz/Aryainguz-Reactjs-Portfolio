@@ -61,7 +61,7 @@ const ProjectsArray = [
     glink:"https://github.com/Aryainguz/IdeaXApi"
   },
   {
-    title: "Redux Todo App",
+    title: "ReduxToolkit Todo App",
     description: "A Todo App built using ReactJS + Redux Toolkit + TailwindCSS.",
     img: todo_redux,
     hlink:"https://loquacious-basbousa-23537c.netlify.app/",
